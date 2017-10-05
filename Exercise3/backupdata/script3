@@ -1,0 +1,6 @@
+echo "Enter a number less than 10"
+read number
+while [ "$number" -lt 15 ]; do
+  echo "Number = $number"
+  number=$((number+1))
+done

@@ -1,0 +1,11 @@
+echo -n "Enter any letter from a to c"
+read character
+if ["$character"="a"];then
+  echo "you entered a"
+elif ["$character"="b"];then
+  echo "you entered b"
+elif ["$character"="c"];then
+  echo "you entered c"
+else
+  echo "You didn't enter any letter from a to c"
+fi
